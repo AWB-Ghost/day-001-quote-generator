@@ -1,0 +1,18 @@
+/* Press Start 2P is self-hosted via next/font in src/app/layout.tsx (see the `html .retro`
+   rule in globals.css), so the external Google Fonts import was removed: no third-party
+   request and no duplicate font download. */
+
+.retro {
+  font-family:
+    "Press Start 2P",
+    system-ui,
+    -apple-system,
+    sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
